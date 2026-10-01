@@ -1,0 +1,38 @@
+# Gecode crossword benchmark problem #6: 05.07, 5 x 5
+id: 6
+dimensions:
+  rows: 5
+  cols: 5
+density: 84.00
+word_count: 10
+grid: |
+  x----
+  x----
+  -----
+  ----x
+  ----x
+keys:
+  - number: 1
+    position: [0, 1]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 2]
+    directions: [vertical]
+  - number: 3
+    position: [0, 3]
+    directions: [vertical]
+  - number: 4
+    position: [0, 4]
+    directions: [vertical]
+  - number: 5
+    position: [1, 1]
+    directions: [horizontal]
+  - number: 6
+    position: [2, 0]
+    directions: [horizontal, vertical]
+  - number: 7
+    position: [3, 0]
+    directions: [horizontal]
+  - number: 8
+    position: [4, 0]
+    directions: [horizontal]

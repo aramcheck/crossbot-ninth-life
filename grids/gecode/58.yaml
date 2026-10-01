@@ -1,0 +1,58 @@
+# Gecode crossword benchmark problem #58: puzzle09, 7 x 7
+id: 58
+dimensions:
+  rows: 7
+  cols: 7
+density: 71.43
+word_count: 17
+grid: |
+  xx---xx
+  x-----x
+  ---x---
+  -------
+  ---x---
+  x-----x
+  xx---xx
+keys:
+  - number: 1
+    position: [0, 2]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 3]
+    directions: [vertical]
+  - number: 3
+    position: [0, 4]
+    directions: [vertical]
+  - number: 4
+    position: [1, 1]
+    directions: [horizontal, vertical]
+  - number: 5
+    position: [1, 5]
+    directions: [vertical]
+  - number: 6
+    position: [2, 0]
+    directions: [horizontal, vertical]
+  - number: 7
+    position: [2, 4]
+    directions: [horizontal]
+  - number: 8
+    position: [2, 6]
+    directions: [vertical]
+  - number: 9
+    position: [3, 0]
+    directions: [horizontal]
+  - number: 10
+    position: [4, 0]
+    directions: [horizontal]
+  - number: 11
+    position: [4, 4]
+    directions: [horizontal]
+  - number: 12
+    position: [5, 1]
+    directions: [horizontal]
+  - number: 13
+    position: [5, 3]
+    directions: [vertical]
+  - number: 14
+    position: [6, 2]
+    directions: [horizontal]

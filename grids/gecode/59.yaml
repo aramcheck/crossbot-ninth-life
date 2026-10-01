@@ -1,0 +1,67 @@
+# Gecode crossword benchmark problem #59: puzzle10, 7 x 7
+id: 59
+dimensions:
+  rows: 7
+  cols: 7
+density: 81.63
+word_count: 20
+grid: |
+  ---x---
+  ---x---
+  -------
+  xx-x-xx
+  -------
+  ---x---
+  ---x---
+keys:
+  - number: 1
+    position: [0, 0]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 1]
+    directions: [vertical]
+  - number: 3
+    position: [0, 2]
+    directions: [vertical]
+  - number: 4
+    position: [0, 4]
+    directions: [horizontal, vertical]
+  - number: 5
+    position: [0, 5]
+    directions: [vertical]
+  - number: 6
+    position: [0, 6]
+    directions: [vertical]
+  - number: 7
+    position: [1, 0]
+    directions: [horizontal]
+  - number: 8
+    position: [1, 4]
+    directions: [horizontal]
+  - number: 9
+    position: [2, 0]
+    directions: [horizontal]
+  - number: 10
+    position: [4, 0]
+    directions: [horizontal, vertical]
+  - number: 11
+    position: [4, 1]
+    directions: [vertical]
+  - number: 12
+    position: [4, 5]
+    directions: [vertical]
+  - number: 13
+    position: [4, 6]
+    directions: [vertical]
+  - number: 14
+    position: [5, 0]
+    directions: [horizontal]
+  - number: 15
+    position: [5, 4]
+    directions: [horizontal]
+  - number: 16
+    position: [6, 0]
+    directions: [horizontal]
+  - number: 17
+    position: [6, 4]
+    directions: [horizontal]

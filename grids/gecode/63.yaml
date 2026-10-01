@@ -1,0 +1,85 @@
+# Gecode crossword benchmark problem #63: puzzle14, 10 x 10
+id: 63
+dimensions:
+  rows: 10
+  cols: 10
+density: 62.00
+word_count: 28
+grid: |
+  xxx----xxx
+  xx-----xxx
+  x-------xx
+  -----xx---
+  ----xxx---
+  ---xxx----
+  ---xx-----
+  xx-------x
+  xxx-----xx
+  xxx----xxx
+keys:
+  - number: 1
+    position: [0, 3]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 4]
+    directions: [vertical]
+  - number: 3
+    position: [0, 5]
+    directions: [vertical]
+  - number: 4
+    position: [0, 6]
+    directions: [vertical]
+  - number: 5
+    position: [1, 2]
+    directions: [horizontal, vertical]
+  - number: 6
+    position: [2, 1]
+    directions: [horizontal, vertical]
+  - number: 7
+    position: [2, 7]
+    directions: [vertical]
+  - number: 8
+    position: [3, 0]
+    directions: [horizontal, vertical]
+  - number: 9
+    position: [3, 7]
+    directions: [horizontal]
+  - number: 10
+    position: [3, 8]
+    directions: [vertical]
+  - number: 11
+    position: [3, 9]
+    directions: [vertical]
+  - number: 12
+    position: [4, 0]
+    directions: [horizontal]
+  - number: 13
+    position: [4, 7]
+    directions: [horizontal]
+  - number: 14
+    position: [5, 0]
+    directions: [horizontal]
+  - number: 15
+    position: [5, 6]
+    directions: [horizontal, vertical]
+  - number: 16
+    position: [6, 0]
+    directions: [horizontal]
+  - number: 17
+    position: [6, 5]
+    directions: [horizontal, vertical]
+  - number: 18
+    position: [7, 2]
+    directions: [horizontal]
+  - number: 19
+    position: [7, 3]
+    directions: [vertical]
+  - number: 20
+    position: [7, 4]
+    directions: [vertical]
+  - number: 21
+    position: [8, 3]
+    directions: [horizontal]
+  - number: 22
+    position: [9, 3]
+    directions: [horizontal]

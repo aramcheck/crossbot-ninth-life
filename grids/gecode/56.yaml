@@ -1,0 +1,57 @@
+# Gecode crossword benchmark problem #56: puzzle07, 6 x 6
+id: 56
+dimensions:
+  rows: 6
+  cols: 6
+density: 83.33
+word_count: 16
+grid: |
+  -----x
+  -x----
+  ---x--
+  --x---
+  ----x-
+  x-----
+keys:
+  - number: 1
+    position: [0, 0]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 2]
+    directions: [vertical]
+  - number: 3
+    position: [0, 3]
+    directions: [vertical]
+  - number: 4
+    position: [0, 4]
+    directions: [vertical]
+  - number: 5
+    position: [1, 2]
+    directions: [horizontal]
+  - number: 6
+    position: [1, 5]
+    directions: [vertical]
+  - number: 7
+    position: [2, 0]
+    directions: [horizontal]
+  - number: 8
+    position: [2, 1]
+    directions: [vertical]
+  - number: 9
+    position: [2, 4]
+    directions: [horizontal]
+  - number: 10
+    position: [3, 0]
+    directions: [horizontal]
+  - number: 11
+    position: [3, 3]
+    directions: [horizontal, vertical]
+  - number: 12
+    position: [4, 0]
+    directions: [horizontal]
+  - number: 13
+    position: [4, 2]
+    directions: [vertical]
+  - number: 14
+    position: [5, 1]
+    directions: [horizontal]

@@ -1,0 +1,405 @@
+# Gecode crossword benchmark problem #35: 21.06, 21 x 21
+id: 35
+dimensions:
+  rows: 21
+  cols: 21
+density: 84.58
+word_count: 146
+grid: |
+  ----x-----x-----x----
+  ----x-----x-----x----
+  ----x-----------x----
+  --------x---x--------
+  xxx----x-----x----xxx
+  ------x-------x------
+  -----x---x-----x-----
+  ----x-----x-----x----
+  ---x-------x-----x---
+  --------x-----x------
+  xx-----x-----x-----xx
+  ------x-----x--------
+  ---x-----x-------x---
+  ----x-----x-----x----
+  -----x-----x---x-----
+  ------x-------x------
+  xxx----x-----x----xxx
+  --------x---x--------
+  ----x-----------x----
+  ----x-----x-----x----
+  ----x-----x-----x----
+keys:
+  - number: 1
+    position: [0, 0]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 1]
+    directions: [vertical]
+  - number: 3
+    position: [0, 2]
+    directions: [vertical]
+  - number: 4
+    position: [0, 3]
+    directions: [vertical]
+  - number: 5
+    position: [0, 5]
+    directions: [horizontal, vertical]
+  - number: 6
+    position: [0, 6]
+    directions: [vertical]
+  - number: 7
+    position: [0, 7]
+    directions: [vertical]
+  - number: 8
+    position: [0, 8]
+    directions: [vertical]
+  - number: 9
+    position: [0, 9]
+    directions: [vertical]
+  - number: 10
+    position: [0, 11]
+    directions: [horizontal, vertical]
+  - number: 11
+    position: [0, 12]
+    directions: [vertical]
+  - number: 12
+    position: [0, 13]
+    directions: [vertical]
+  - number: 13
+    position: [0, 14]
+    directions: [vertical]
+  - number: 14
+    position: [0, 15]
+    directions: [vertical]
+  - number: 15
+    position: [0, 17]
+    directions: [horizontal, vertical]
+  - number: 16
+    position: [0, 18]
+    directions: [vertical]
+  - number: 17
+    position: [0, 19]
+    directions: [vertical]
+  - number: 18
+    position: [0, 20]
+    directions: [vertical]
+  - number: 19
+    position: [1, 0]
+    directions: [horizontal]
+  - number: 20
+    position: [1, 5]
+    directions: [horizontal]
+  - number: 21
+    position: [1, 11]
+    directions: [horizontal]
+  - number: 22
+    position: [1, 17]
+    directions: [horizontal]
+  - number: 23
+    position: [2, 0]
+    directions: [horizontal]
+  - number: 24
+    position: [2, 5]
+    directions: [horizontal]
+  - number: 25
+    position: [2, 10]
+    directions: [vertical]
+  - number: 26
+    position: [2, 17]
+    directions: [horizontal]
+  - number: 27
+    position: [3, 0]
+    directions: [horizontal]
+  - number: 28
+    position: [3, 4]
+    directions: [vertical]
+  - number: 29
+    position: [3, 9]
+    directions: [horizontal]
+  - number: 30
+    position: [3, 13]
+    directions: [horizontal]
+  - number: 31
+    position: [3, 16]
+    directions: [vertical]
+  - number: 32
+    position: [4, 3]
+    directions: [horizontal]
+  - number: 33
+    position: [4, 8]
+    directions: [horizontal, vertical]
+  - number: 34
+    position: [4, 12]
+    directions: [vertical]
+  - number: 35
+    position: [4, 14]
+    directions: [horizontal]
+  - number: 36
+    position: [5, 0]
+    directions: [horizontal, vertical]
+  - number: 37
+    position: [5, 1]
+    directions: [vertical]
+  - number: 38
+    position: [5, 2]
+    directions: [vertical]
+  - number: 39
+    position: [5, 7]
+    directions: [horizontal, vertical]
+  - number: 40
+    position: [5, 13]
+    directions: [vertical]
+  - number: 41
+    position: [5, 15]
+    directions: [horizontal]
+  - number: 42
+    position: [5, 18]
+    directions: [vertical]
+  - number: 43
+    position: [5, 19]
+    directions: [vertical]
+  - number: 44
+    position: [5, 20]
+    directions: [vertical]
+  - number: 45
+    position: [6, 0]
+    directions: [horizontal]
+  - number: 46
+    position: [6, 6]
+    directions: [horizontal, vertical]
+  - number: 47
+    position: [6, 10]
+    directions: [horizontal]
+  - number: 48
+    position: [6, 14]
+    directions: [vertical]
+  - number: 49
+    position: [6, 16]
+    directions: [horizontal]
+  - number: 50
+    position: [7, 0]
+    directions: [horizontal]
+  - number: 51
+    position: [7, 5]
+    directions: [horizontal, vertical]
+  - number: 52
+    position: [7, 9]
+    directions: [vertical]
+  - number: 53
+    position: [7, 11]
+    directions: [horizontal]
+  - number: 54
+    position: [7, 15]
+    directions: [vertical]
+  - number: 55
+    position: [7, 17]
+    directions: [horizontal]
+  - number: 56
+    position: [8, 0]
+    directions: [horizontal]
+  - number: 57
+    position: [8, 4]
+    directions: [horizontal, vertical]
+  - number: 58
+    position: [8, 10]
+    directions: [vertical]
+  - number: 59
+    position: [8, 12]
+    directions: [horizontal]
+  - number: 60
+    position: [8, 16]
+    directions: [vertical]
+  - number: 61
+    position: [8, 18]
+    directions: [horizontal]
+  - number: 62
+    position: [9, 0]
+    directions: [horizontal]
+  - number: 63
+    position: [9, 3]
+    directions: [vertical]
+  - number: 64
+    position: [9, 9]
+    directions: [horizontal]
+  - number: 65
+    position: [9, 11]
+    directions: [vertical]
+  - number: 66
+    position: [9, 15]
+    directions: [horizontal]
+  - number: 67
+    position: [9, 17]
+    directions: [vertical]
+  - number: 68
+    position: [10, 2]
+    directions: [horizontal]
+  - number: 69
+    position: [10, 8]
+    directions: [horizontal, vertical]
+  - number: 70
+    position: [10, 14]
+    directions: [horizontal, vertical]
+  - number: 71
+    position: [11, 0]
+    directions: [horizontal, vertical]
+  - number: 72
+    position: [11, 1]
+    directions: [vertical]
+  - number: 73
+    position: [11, 7]
+    directions: [horizontal, vertical]
+  - number: 74
+    position: [11, 13]
+    directions: [horizontal, vertical]
+  - number: 75
+    position: [11, 19]
+    directions: [vertical]
+  - number: 76
+    position: [11, 20]
+    directions: [vertical]
+  - number: 77
+    position: [12, 0]
+    directions: [horizontal]
+  - number: 78
+    position: [12, 4]
+    directions: [horizontal]
+  - number: 79
+    position: [12, 6]
+    directions: [vertical]
+  - number: 80
+    position: [12, 10]
+    directions: [horizontal]
+  - number: 81
+    position: [12, 12]
+    directions: [vertical]
+  - number: 82
+    position: [12, 18]
+    directions: [horizontal]
+  - number: 83
+    position: [13, 0]
+    directions: [horizontal]
+  - number: 84
+    position: [13, 3]
+    directions: [vertical]
+  - number: 85
+    position: [13, 5]
+    directions: [horizontal]
+  - number: 86
+    position: [13, 9]
+    directions: [vertical]
+  - number: 87
+    position: [13, 11]
+    directions: [horizontal]
+  - number: 88
+    position: [13, 17]
+    directions: [horizontal, vertical]
+  - number: 89
+    position: [14, 0]
+    directions: [horizontal]
+  - number: 90
+    position: [14, 4]
+    directions: [vertical]
+  - number: 91
+    position: [14, 6]
+    directions: [horizontal]
+  - number: 92
+    position: [14, 10]
+    directions: [vertical]
+  - number: 93
+    position: [14, 12]
+    directions: [horizontal]
+  - number: 94
+    position: [14, 16]
+    directions: [horizontal, vertical]
+  - number: 95
+    position: [15, 0]
+    directions: [horizontal]
+  - number: 96
+    position: [15, 5]
+    directions: [vertical]
+  - number: 97
+    position: [15, 7]
+    directions: [horizontal]
+  - number: 98
+    position: [15, 11]
+    directions: [vertical]
+  - number: 99
+    position: [15, 15]
+    directions: [horizontal, vertical]
+  - number: 100
+    position: [16, 3]
+    directions: [horizontal]
+  - number: 101
+    position: [16, 6]
+    directions: [vertical]
+  - number: 102
+    position: [16, 8]
+    directions: [horizontal]
+  - number: 103
+    position: [16, 14]
+    directions: [horizontal, vertical]
+  - number: 104
+    position: [17, 0]
+    directions: [horizontal, vertical]
+  - number: 105
+    position: [17, 1]
+    directions: [vertical]
+  - number: 106
+    position: [17, 2]
+    directions: [vertical]
+  - number: 107
+    position: [17, 7]
+    directions: [vertical]
+  - number: 108
+    position: [17, 9]
+    directions: [horizontal]
+  - number: 109
+    position: [17, 13]
+    directions: [horizontal, vertical]
+  - number: 110
+    position: [17, 18]
+    directions: [vertical]
+  - number: 111
+    position: [17, 19]
+    directions: [vertical]
+  - number: 112
+    position: [17, 20]
+    directions: [vertical]
+  - number: 113
+    position: [18, 0]
+    directions: [horizontal]
+  - number: 114
+    position: [18, 5]
+    directions: [horizontal]
+  - number: 115
+    position: [18, 8]
+    directions: [vertical]
+  - number: 116
+    position: [18, 12]
+    directions: [vertical]
+  - number: 117
+    position: [18, 17]
+    directions: [horizontal]
+  - number: 118
+    position: [19, 0]
+    directions: [horizontal]
+  - number: 119
+    position: [19, 5]
+    directions: [horizontal]
+  - number: 120
+    position: [19, 11]
+    directions: [horizontal]
+  - number: 121
+    position: [19, 17]
+    directions: [horizontal]
+  - number: 122
+    position: [20, 0]
+    directions: [horizontal]
+  - number: 123
+    position: [20, 5]
+    directions: [horizontal]
+  - number: 124
+    position: [20, 11]
+    directions: [horizontal]
+  - number: 125
+    position: [20, 17]
+    directions: [horizontal]

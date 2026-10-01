@@ -1,0 +1,61 @@
+# Gecode crossword benchmark problem #60: puzzle11, 7 x 7
+id: 60
+dimensions:
+  rows: 7
+  cols: 7
+density: 77.55
+word_count: 18
+grid: |
+  xx----x
+  x------
+  ---x---
+  ---x---
+  ---x---
+  ------x
+  x----xx
+keys:
+  - number: 1
+    position: [0, 2]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 3]
+    directions: [vertical]
+  - number: 3
+    position: [0, 4]
+    directions: [vertical]
+  - number: 4
+    position: [0, 5]
+    directions: [vertical]
+  - number: 5
+    position: [1, 1]
+    directions: [horizontal, vertical]
+  - number: 6
+    position: [1, 6]
+    directions: [vertical]
+  - number: 7
+    position: [2, 0]
+    directions: [horizontal, vertical]
+  - number: 8
+    position: [2, 4]
+    directions: [horizontal]
+  - number: 9
+    position: [3, 0]
+    directions: [horizontal]
+  - number: 10
+    position: [3, 4]
+    directions: [horizontal]
+  - number: 11
+    position: [4, 0]
+    directions: [horizontal]
+  - number: 12
+    position: [4, 4]
+    directions: [horizontal]
+  - number: 13
+    position: [5, 0]
+    directions: [horizontal]
+  - number: 14
+    position: [5, 3]
+    directions: [vertical]
+  - number: 15
+    position: [6, 1]
+    directions: [horizontal]

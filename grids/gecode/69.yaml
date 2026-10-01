@@ -1,0 +1,75 @@
+# Gecode crossword benchmark problem #69: puzzle20, 9 x 9
+id: 69
+dimensions:
+  rows: 9
+  cols: 9
+density: 64.20
+word_count: 24
+grid: |
+  xxx---xxx
+  xx-----xx
+  x-------x
+  ----x----
+  ---xxx---
+  ----x----
+  x-------x
+  xx-----xx
+  xxx---xxx
+keys:
+  - number: 1
+    position: [0, 3]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 4]
+    directions: [vertical]
+  - number: 3
+    position: [0, 5]
+    directions: [vertical]
+  - number: 4
+    position: [1, 2]
+    directions: [horizontal, vertical]
+  - number: 5
+    position: [1, 6]
+    directions: [vertical]
+  - number: 6
+    position: [2, 1]
+    directions: [horizontal, vertical]
+  - number: 7
+    position: [2, 7]
+    directions: [vertical]
+  - number: 8
+    position: [3, 0]
+    directions: [horizontal, vertical]
+  - number: 9
+    position: [3, 5]
+    directions: [horizontal]
+  - number: 10
+    position: [3, 8]
+    directions: [vertical]
+  - number: 11
+    position: [4, 0]
+    directions: [horizontal]
+  - number: 12
+    position: [4, 6]
+    directions: [horizontal]
+  - number: 13
+    position: [5, 0]
+    directions: [horizontal]
+  - number: 14
+    position: [5, 3]
+    directions: [vertical]
+  - number: 15
+    position: [5, 5]
+    directions: [horizontal, vertical]
+  - number: 16
+    position: [6, 1]
+    directions: [horizontal]
+  - number: 17
+    position: [6, 4]
+    directions: [vertical]
+  - number: 18
+    position: [7, 2]
+    directions: [horizontal]
+  - number: 19
+    position: [8, 3]
+    directions: [horizontal]

@@ -1,0 +1,24 @@
+# Gecode crossword benchmark problem #51: puzzle02, 3 x 3
+id: 51
+dimensions:
+  rows: 3
+  cols: 3
+density: 88.89
+word_count: 6
+grid: |
+  x--
+  ---
+  ---
+keys:
+  - number: 1
+    position: [0, 1]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 2]
+    directions: [vertical]
+  - number: 3
+    position: [1, 0]
+    directions: [horizontal, vertical]
+  - number: 4
+    position: [2, 0]
+    directions: [horizontal]

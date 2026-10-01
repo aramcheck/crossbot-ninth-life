@@ -1,0 +1,35 @@
+# Gecode crossword benchmark problem #8: 05.09, 5 x 5
+id: 8
+dimensions:
+  rows: 5
+  cols: 5
+density: 76.00
+word_count: 10
+grid: |
+  xx---
+  x----
+  -----
+  ----x
+  ---xx
+keys:
+  - number: 1
+    position: [0, 2]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 3]
+    directions: [vertical]
+  - number: 3
+    position: [0, 4]
+    directions: [vertical]
+  - number: 4
+    position: [1, 1]
+    directions: [horizontal, vertical]
+  - number: 5
+    position: [2, 0]
+    directions: [horizontal, vertical]
+  - number: 6
+    position: [3, 0]
+    directions: [horizontal]
+  - number: 7
+    position: [4, 0]
+    directions: [horizontal]

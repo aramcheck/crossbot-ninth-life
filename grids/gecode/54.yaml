@@ -1,0 +1,41 @@
+# Gecode crossword benchmark problem #54: puzzle05, 5 x 5
+id: 54
+dimensions:
+  rows: 5
+  cols: 5
+density: 84.00
+word_count: 10
+grid: |
+  ----x
+  ---x-
+  -----
+  -x---
+  x----
+keys:
+  - number: 1
+    position: [0, 0]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 1]
+    directions: [vertical]
+  - number: 3
+    position: [0, 2]
+    directions: [vertical]
+  - number: 4
+    position: [1, 0]
+    directions: [horizontal]
+  - number: 5
+    position: [1, 4]
+    directions: [vertical]
+  - number: 6
+    position: [2, 0]
+    directions: [horizontal]
+  - number: 7
+    position: [2, 3]
+    directions: [vertical]
+  - number: 8
+    position: [3, 2]
+    directions: [horizontal]
+  - number: 9
+    position: [4, 1]
+    directions: [horizontal]

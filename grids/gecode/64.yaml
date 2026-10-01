@@ -1,0 +1,137 @@
+# Gecode crossword benchmark problem #64: puzzle15, 11 x 11
+id: 64
+dimensions:
+  rows: 11
+  cols: 11
+density: 78.51
+word_count: 46
+grid: |
+  ----xxx----
+  -----x-----
+  -----x-----
+  ---x---x---
+  x-----x---x
+  xxx-----xxx
+  x---x-----x
+  ---x---x---
+  -----x-----
+  -----x-----
+  ----xxx----
+keys:
+  - number: 1
+    position: [0, 0]
+    directions: [horizontal, vertical]
+  - number: 2
+    position: [0, 1]
+    directions: [vertical]
+  - number: 3
+    position: [0, 2]
+    directions: [vertical]
+  - number: 4
+    position: [0, 3]
+    directions: [vertical]
+  - number: 5
+    position: [0, 7]
+    directions: [horizontal, vertical]
+  - number: 6
+    position: [0, 8]
+    directions: [vertical]
+  - number: 7
+    position: [0, 9]
+    directions: [vertical]
+  - number: 8
+    position: [0, 10]
+    directions: [vertical]
+  - number: 9
+    position: [1, 0]
+    directions: [horizontal]
+  - number: 10
+    position: [1, 4]
+    directions: [vertical]
+  - number: 11
+    position: [1, 6]
+    directions: [horizontal, vertical]
+  - number: 12
+    position: [2, 0]
+    directions: [horizontal]
+  - number: 13
+    position: [2, 6]
+    directions: [horizontal]
+  - number: 14
+    position: [3, 0]
+    directions: [horizontal]
+  - number: 15
+    position: [3, 4]
+    directions: [horizontal]
+  - number: 16
+    position: [3, 5]
+    directions: [vertical]
+  - number: 17
+    position: [3, 8]
+    directions: [horizontal]
+  - number: 18
+    position: [4, 1]
+    directions: [horizontal]
+  - number: 19
+    position: [4, 3]
+    directions: [vertical]
+  - number: 20
+    position: [4, 7]
+    directions: [horizontal, vertical]
+  - number: 21
+    position: [5, 3]
+    directions: [horizontal]
+  - number: 22
+    position: [5, 6]
+    directions: [vertical]
+  - number: 23
+    position: [6, 1]
+    directions: [horizontal, vertical]
+  - number: 24
+    position: [6, 2]
+    directions: [vertical]
+  - number: 25
+    position: [6, 5]
+    directions: [horizontal]
+  - number: 26
+    position: [6, 8]
+    directions: [vertical]
+  - number: 27
+    position: [6, 9]
+    directions: [vertical]
+  - number: 28
+    position: [7, 0]
+    directions: [horizontal, vertical]
+  - number: 29
+    position: [7, 4]
+    directions: [horizontal, vertical]
+  - number: 30
+    position: [7, 8]
+    directions: [horizontal]
+  - number: 31
+    position: [7, 10]
+    directions: [vertical]
+  - number: 32
+    position: [8, 0]
+    directions: [horizontal]
+  - number: 33
+    position: [8, 3]
+    directions: [vertical]
+  - number: 34
+    position: [8, 6]
+    directions: [horizontal]
+  - number: 35
+    position: [8, 7]
+    directions: [vertical]
+  - number: 36
+    position: [9, 0]
+    directions: [horizontal]
+  - number: 37
+    position: [9, 6]
+    directions: [horizontal]
+  - number: 38
+    position: [10, 0]
+    directions: [horizontal]
+  - number: 39
+    position: [10, 7]
+    directions: [horizontal]

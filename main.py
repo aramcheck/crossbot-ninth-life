@@ -1,6 +1,6 @@
-def main():
-    print("Hello from crossbot-ninth-life!")
+"""Compatibility entry point; prefer the installed `crossbot` command."""
 
+from crossbot.cli import main
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

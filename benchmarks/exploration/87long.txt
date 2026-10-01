@@ -1,0 +1,7 @@
+dictionary: 109419 words loaded in 0.06s
+ grid    solver   seed      time  status  stats
+----------------------------------------------------------------
+   87       mac      0   120.00s  FAIL    nodes=118712 backtracks=118646 revisions=7229164 restarts=8 jumps=586
+
+1 failures:
+  (87, mac, 0, FAIL)

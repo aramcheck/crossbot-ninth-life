@@ -1,0 +1,135 @@
+{
+  "environment": {
+    "platform": "Linux-6.18.15-aarch64-with-glibc2.41",
+    "python": "3.14.7",
+    "architecture": "aarch64",
+    "machine": "Apple-vendor aarch64 Linux VM; 5 vCPUs; 7.9 GiB RAM; host model not exposed",
+    "source_sha256": "e90c179811ece02d858e98075862103d55bd2d70936a7ec0d2f93683011e8c5a",
+    "dictionary": "dictionaries/words_alpha.txt",
+    "dictionary_sha256": "3ed0c94610d8bcf7c11bbb49c56aa49c7234d32b66824df91f554169e572da48",
+    "words": 370105,
+    "dictionary_load_seconds": 0.19777366699986487,
+    "timer": "time.perf_counter; preparation and verification excluded from solve timer",
+    "timeout": 5.0,
+    "suite_seeds": [
+      0
+    ],
+    "ablation_seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "headlines": [
+    {
+      "solver": "mac",
+      "family": "all",
+      "runs": 88,
+      "solved": 87,
+      "subsecond": 87,
+      "median": 0.03585995800017372,
+      "worst_solved": 0.2711906249999174,
+      "total": 9.751203870001063
+    },
+    {
+      "solver": "mac",
+      "family": "core",
+      "runs": 16,
+      "solved": 15,
+      "subsecond": 15,
+      "median": 0.0349849169999743,
+      "worst_solved": 0.2216996659999495,
+      "total": 5.711653793000323
+    },
+    {
+      "solver": "mac",
+      "family": "gecode",
+      "runs": 72,
+      "solved": 72,
+      "subsecond": 72,
+      "median": 0.03777497900000526,
+      "worst_solved": 0.2711906249999174,
+      "total": 4.03955007700074
+    },
+    {
+      "solver": "forward",
+      "family": "all",
+      "runs": 88,
+      "solved": 86,
+      "subsecond": 86,
+      "median": 0.012384229499957655,
+      "worst_solved": 0.6498344999999972,
+      "total": 13.798032753999678
+    },
+    {
+      "solver": "forward",
+      "family": "core",
+      "runs": 16,
+      "solved": 15,
+      "subsecond": 15,
+      "median": 0.012107540999977573,
+      "worst_solved": 0.15899054200008322,
+      "total": 5.337208209999972
+    },
+    {
+      "solver": "forward",
+      "family": "gecode",
+      "runs": 72,
+      "solved": 71,
+      "subsecond": 71,
+      "median": 0.012923457999931998,
+      "worst_solved": 0.6498344999999972,
+      "total": 8.460824543999706
+    }
+  ],
+  "ablation": [
+    {
+      "name": "default",
+      "seconds": 2.0037154170004214,
+      "solved": 9,
+      "nodes": 2466
+    },
+    {
+      "name": "no_arc_consistency",
+      "seconds": 10.955597753000802,
+      "solved": 8,
+      "nodes": 149644
+    },
+    {
+      "name": "no_value_ordering",
+      "seconds": 6.266085962000034,
+      "solved": 9,
+      "nodes": 6860
+    },
+    {
+      "name": "no_restarts",
+      "seconds": 6.55669054499981,
+      "solved": 8,
+      "nodes": 10035
+    },
+    {
+      "name": "no_degree",
+      "seconds": 2.036722417999954,
+      "solved": 9,
+      "nodes": 2600
+    },
+    {
+      "name": "no_support_cache",
+      "seconds": 2.331492584000216,
+      "solved": 9,
+      "nodes": 2466
+    }
+  ],
+  "hardest": {
+    "slot_lengths": {
+      "6": 12,
+      "5": 4,
+      "7": 32,
+      "12": 4,
+      "3": 2
+    },
+    "crossings": 185,
+    "independent_log10": 18.17861687386572,
+    "thinning_proxy": 0.46063713541988793
+  }
+}

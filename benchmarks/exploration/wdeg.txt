@@ -1,0 +1,9 @@
+words_alpha.txt 0 5.000114044000156 timeout {'nodes': 1566, 'backtracks': 1539, 'revisions': 66786, 'restarts': 4, 'jumps': 0}
+words_alpha.txt 1 5.0000969179998265 timeout {'nodes': 1842, 'backtracks': 1816, 'revisions': 48812, 'restarts': 4, 'jumps': 0}
+words_alpha.txt 2 5.000108960000034 timeout {'nodes': 1547, 'backtracks': 1519, 'revisions': 65916, 'restarts': 4, 'jumps': 0}
+words.es.rae.txt 0 5.0001065440001184 timeout {'nodes': 4938, 'backtracks': 4916, 'revisions': 232129, 'restarts': 5, 'jumps': 7}
+words.es.rae.txt 1 5.000072877999855 timeout {'nodes': 4992, 'backtracks': 4970, 'revisions': 209181, 'restarts': 5, 'jumps': 7}
+words.es.rae.txt 2 5.000053169000012 timeout {'nodes': 4376, 'backtracks': 4353, 'revisions': 233003, 'restarts': 5, 'jumps': 0}
+uk220k.txt 0 5.000077793999935 timeout {'nodes': 2416, 'backtracks': 2391, 'revisions': 103177, 'restarts': 4, 'jumps': 2}
+uk220k.txt 1 5.000109335000161 timeout {'nodes': 2195, 'backtracks': 2169, 'revisions': 102242, 'restarts': 4, 'jumps': 0}
+uk220k.txt 2 5.000054085999864 timeout {'nodes': 2248, 'backtracks': 2225, 'revisions': 77176, 'restarts': 4, 'jumps': 0}

@@ -1,0 +1,200 @@
+[
+  {
+    "dictionary": "words_alpha.txt",
+    "seed": 0,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.000064002999807,
+    "steps": 59013,
+    "restarts": 30,
+    "best_crossing_errors": 19,
+    "assignment": null
+  },
+  {
+    "dictionary": "words_alpha.txt",
+    "seed": 1,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.0000591689999965,
+    "steps": 58960,
+    "restarts": 30,
+    "best_crossing_errors": 17,
+    "assignment": null
+  },
+  {
+    "dictionary": "words_alpha.txt",
+    "seed": 2,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.000020126999971,
+    "steps": 58179,
+    "restarts": 30,
+    "best_crossing_errors": 20,
+    "assignment": null
+  },
+  {
+    "dictionary": "words_alpha.txt",
+    "seed": 0,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.000073960999998,
+    "steps": 59137,
+    "restarts": 30,
+    "best_crossing_errors": 28,
+    "assignment": null
+  },
+  {
+    "dictionary": "words_alpha.txt",
+    "seed": 1,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.0000037529998735,
+    "steps": 59089,
+    "restarts": 30,
+    "best_crossing_errors": 33,
+    "assignment": null
+  },
+  {
+    "dictionary": "words_alpha.txt",
+    "seed": 2,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.000034169000173,
+    "steps": 58730,
+    "restarts": 30,
+    "best_crossing_errors": 27,
+    "assignment": null
+  },
+  {
+    "dictionary": "uk220k.txt",
+    "seed": 0,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.000056002999827,
+    "steps": 72704,
+    "restarts": 37,
+    "best_crossing_errors": 22,
+    "assignment": null
+  },
+  {
+    "dictionary": "uk220k.txt",
+    "seed": 1,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.0000464609997834,
+    "steps": 72203,
+    "restarts": 37,
+    "best_crossing_errors": 23,
+    "assignment": null
+  },
+  {
+    "dictionary": "uk220k.txt",
+    "seed": 2,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.000091628000064,
+    "steps": 72354,
+    "restarts": 37,
+    "best_crossing_errors": 19,
+    "assignment": null
+  },
+  {
+    "dictionary": "uk220k.txt",
+    "seed": 0,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.000016753000182,
+    "steps": 78376,
+    "restarts": 40,
+    "best_crossing_errors": 35,
+    "assignment": null
+  },
+  {
+    "dictionary": "uk220k.txt",
+    "seed": 1,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.000029293999887,
+    "steps": 78272,
+    "restarts": 40,
+    "best_crossing_errors": 33,
+    "assignment": null
+  },
+  {
+    "dictionary": "uk220k.txt",
+    "seed": 2,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.000084794000031,
+    "steps": 77357,
+    "restarts": 39,
+    "best_crossing_errors": 33,
+    "assignment": null
+  },
+  {
+    "dictionary": "words.es.rae.txt",
+    "seed": 0,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.0000181280001925,
+    "steps": 102501,
+    "restarts": 52,
+    "best_crossing_errors": 17,
+    "assignment": null
+  },
+  {
+    "dictionary": "words.es.rae.txt",
+    "seed": 1,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.000017294000372,
+    "steps": 102293,
+    "restarts": 52,
+    "best_crossing_errors": 20,
+    "assignment": null
+  },
+  {
+    "dictionary": "words.es.rae.txt",
+    "seed": 2,
+    "noise": 0.02,
+    "budget": 5,
+    "elapsed": 5.000051001999964,
+    "steps": 102035,
+    "restarts": 52,
+    "best_crossing_errors": 22,
+    "assignment": null
+  },
+  {
+    "dictionary": "words.es.rae.txt",
+    "seed": 0,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.00001558599979,
+    "steps": 103687,
+    "restarts": 52,
+    "best_crossing_errors": 28,
+    "assignment": null
+  },
+  {
+    "dictionary": "words.es.rae.txt",
+    "seed": 1,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.000042502999804,
+    "steps": 103304,
+    "restarts": 52,
+    "best_crossing_errors": 31,
+    "assignment": null
+  },
+  {
+    "dictionary": "words.es.rae.txt",
+    "seed": 2,
+    "noise": 0.1,
+    "budget": 5,
+    "elapsed": 5.0000226269999075,
+    "steps": 103268,
+    "restarts": 52,
+    "best_crossing_errors": 32,
+    "assignment": null
+  }
+]
